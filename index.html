@@ -14,7 +14,9 @@
 		<!--===============================-->
 		<!--Libs-->
 
-			<!--JQ--><!--<script src="libs/jquery.js"></script>-->
+
+			<!--SWIPER--><script src="libs/swiper-bundle.min.js"></script>
+			<!--SWIPER--><link rel="stylesheet" href="libs/swiper-bundle.min.css" />
 
 
 		<!--===============================-->
@@ -28,10 +30,13 @@
 	<!-- Отображаемое тело страницы -->
 	<body>
 		<div class="wrapper">
-			<section class="index-block">
+			<div class="index-block">
 				<header class="header">
 					<div class="container">
 						<div class="header__body">
+							<div class="header__icon menu__icon">
+								<span></span>
+							</div>
 							<div class="header__list">
 								<div class="header__link">
 									<a href="">Главная</a>
@@ -58,32 +63,90 @@
 						</div>
 					</div>
 				</header>
-				<div class="index-block__wrapper">
+				<section class="index-block__wrapper">
 					<div class="container">
-						<div class="index-block-slaider">
-							<div class="index-block-slaider__slide">
-								<div class="index-block-slaider__content">
-									<div class="index-block-slaider__title">
-										Разработка сайтов любой сложности
+						<div class="index-block-slaider swiper swiperOne">
+							<div class="swiper-wrapper">
+								<div class="index-block-slaider__slide swiper-slide">
+									<div class="index-block-slaider__content">
+										<div class="index-block-slaider__title">
+											Разработка сайтов любой сложности
+										</div>
+										<div class="index-block-slaider__text">
+											Мы разрабатываем сайты любого типа. От лендинга до мультифункциональных информационных порталов
+										</div>
+										<a href="" class="index-block-slaider__button button-orange">
+											Подробнее
+										</a>
 									</div>
-									<div class="index-block-slaider__text">
-										Мы разрабатываем сайты любого типа. От лендинга до мультифункциональных информационных порталов
+									<div class="index-block-slaider__img">
+										<img src="img/index-block/1.svg" alt="">
 									</div>
-									<a href="" class="index-block-slaider__button button-orange">
-										Подробнее
-									</a>
 								</div>
-								<div class="index-block-slaider__img">
-									<img src="img/index-block/1.svg" alt="">
+								<div class="index-block-slaider__slide swiper-slide">
+									<div class="index-block-slaider__content">
+										<div class="index-block-slaider__title">
+											Разработка сайтов любой сложности
+										</div>
+										<div class="index-block-slaider__text">
+											Мы разрабатываем сайты любого типа. От лендинга до мультифункциональных информационных порталов
+										</div>
+										<a href="" class="index-block-slaider__button button-orange">
+											Подробнее
+										</a>
+									</div>
+									<div class="index-block-slaider__img">
+										<img src="img/index-block/1.svg" alt="">
+									</div>
+								</div>
+								<div class="index-block-slaider__slide swiper-slide">
+									<div class="index-block-slaider__content">
+										<div class="index-block-slaider__title">
+											Разработка сайтов любой сложности
+										</div>
+										<div class="index-block-slaider__text">
+											Мы разрабатываем сайты любого типа. От лендинга до мультифункциональных информационных порталов
+										</div>
+										<a href="" class="index-block-slaider__button button-orange">
+											Подробнее
+										</a>
+									</div>
+									<div class="index-block-slaider__img">
+										<img src="img/index-block/1.svg" alt="">
+									</div>
+								</div>
+								<div class="index-block-slaider__slide swiper-slide">
+									<div class="index-block-slaider__content">
+										<div class="index-block-slaider__title">
+											Разработка сайтов любой сложности
+										</div>
+										<div class="index-block-slaider__text">
+											Мы разрабатываем сайты любого типа. От лендинга до мультифункциональных информационных порталов
+										</div>
+										<a href="" class="index-block-slaider__button button-orange">
+											Подробнее
+										</a>
+									</div>
+									<div class="index-block-slaider__img">
+										<img src="img/index-block/1.svg" alt="">
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="index-block-slaider__navigachion">
-							
+							<div class="index-block-slaider__button-navigachion index-block-slaider__button-navigachion_left">
+								<span class="icon-pointer-left"></span>
+							</div>
+							<div class="index-block-slaider__pagination">
+								
+							</div>
+							<div class="index-block-slaider__button-navigachion index-block-slaider__button-navigachion_right">
+								<span class="icon-pointer-right"></span>
+							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+			</div>
 			<section class="text-block">
 				<div class="container">
 					<div class="text-block__wrapper">
@@ -123,6 +186,73 @@
 					</div>
 				</div>
 			</section>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__wrapper">
+						<div class="footer__content">
+							<div class="footer__text">
+								<p>
+									© 2016-2022, ИП .Все права защищены.
+								</p>
+								<p>
+									Политика конфиденциальности
+								</p>
+							</div>
+						</div>
+						<div class="footer__list">
+							<div class="footer__link">
+								<a href="">Главная</a>
+							</div>
+							<div class="footer__link">
+								<a href="">Обо мне</a>
+							</div>
+							<div class="footer__link">
+								<a href="">Услуги</a>
+							</div>
+							<div class="footer__link">
+								<a href="">Портфолио</a>
+							</div>
+							<div class="footer__link">
+								<a href="">Сертификаты</a>
+							</div>
+							<div class="footer__link">
+								<a href="">Контакты</a>
+							</div>
+						</div>
+						<div class="footer__icon-list">
+							<div class="footer__icon-link">
+								<a href="">
+									<span class="icon-telephone"></span>
+									+7 (435) 543 5435
+								</a>
+							</div>
+							<div class="footer__icon-link">
+								<a href="">
+									<span class="icon-letter"></span>
+									mail@mail.com
+								</a>
+							</div>
+							<div class="footer__icon-link">
+								<a href="">
+									<span class="icon-telegrams"></span>
+									Telegram
+								</a>
+							</div>
+							<div class="footer__icon-link">
+								<a href="">
+									<span class="icon-github"></span>
+									Github
+								</a>
+							</div>
+						</div>
+						<div class="footer__button">
+							<a href="" class="button-orange">
+								оставить заявку
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
 		</div>
 		<script src="js/custom.js"></script>
 	</body>

@@ -7,3 +7,24 @@ function ibg(){
 	}
 }
 ibg();
+
+//=========================================================================================================
+
+var swiperOne = new Swiper(".swiperOne", {
+	//cssMode: true,
+	spaceBetween: 60,
+	speed: 700,
+	navigation: {
+		//nextEl: ".index-block-slaider__button-navigachion_left",
+		//prevEl: ".index-block-slaider__button-navigachion_right",
+		prevEl: ".index-block-slaider__button-navigachion_left",
+		nextEl: ".index-block-slaider__button-navigachion_right",
+	},
+	pagination: {
+		el: ".index-block-slaider__pagination",
+	},
+	//mousewheel: true,
+	//keyboard: true,
+});
+
+//=========================================================================================================
