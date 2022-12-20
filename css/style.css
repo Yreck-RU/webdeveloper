@@ -370,7 +370,7 @@ body {
     z-index: 3; }
   .bacgraund-black:before {
     content: "";
-    background-image: url("../../img/black-background-noise.png");
+    background-image: url("../img/black-background-noise.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
