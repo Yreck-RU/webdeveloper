@@ -28,33 +28,34 @@
 		<meta name="format-detection" content="telephone=no">
 	</head>
 	<!-- Отображаемое тело страницы -->
-	<body>
+	<body class="">
 		<div class="wrapper">
-			<div class="index-block">
+			<div class="index-block bacgraund-black">
 				<header class="header">
+					<div class="header-blur"></div>
 					<div class="container">
 						<div class="header__body">
 							<div class="header__icon menu__icon">
 								<span></span>
 							</div>
-							<div class="header__list">
+							<div class="header__list menu__body">
 								<div class="header__link">
-									<a href="">Главная</a>
+									<a href="" class="_link-hover">Главная</a>
 								</div>
 								<div class="header__link">
-									<a href="">Обо мне</a>
+									<a href="" class="_link-hover">Обо мне</a>
 								</div>
 								<div class="header__link">
-									<a href="">Услуги</a>
+									<a href="" class="_link-hover">Услуги</a>
 								</div>
 								<div class="header__link">
-									<a href="">Портфолио</a>
+									<a href="" class="_link-hover">Портфолио</a>
 								</div>
 								<div class="header__link">
-									<a href="">Сертификаты</a>
+									<a href="" class="_link-hover">Сертификаты</a>
 								</div>
 								<div class="header__link">
-									<a href="">Контакты</a>
+									<a href="" class="_link-hover">Контакты</a>
 								</div>
 							</div>
 							<a href="" class="header__button">
@@ -65,11 +66,15 @@
 				</header>
 				<section class="index-block__wrapper">
 					<div class="container">
+						<img src="img/index-block/Ellipse1.png" alt="" class="eleps eleps_1">
+						<img src="img/index-block/Ellipse2.png" alt="" class="eleps eleps_2">
+						<img src="img/index-block/Ellipse3.png" alt="" class="eleps eleps_3">
+						<img src="img/index-block/Ellipse3.png" alt="" class="eleps eleps_4">
 						<div class="index-block-slaider swiper swiperOne">
 							<div class="swiper-wrapper">
 								<div class="index-block-slaider__slide swiper-slide">
 									<div class="index-block-slaider__content">
-										<div class="index-block-slaider__title">
+										<div class="index-block-slaider__title title title_while">
 											Разработка сайтов любой сложности
 										</div>
 										<div class="index-block-slaider__text">
@@ -85,7 +90,7 @@
 								</div>
 								<div class="index-block-slaider__slide swiper-slide">
 									<div class="index-block-slaider__content">
-										<div class="index-block-slaider__title">
+										<div class="index-block-slaider__title title title_while">
 											Разработка сайтов любой сложности
 										</div>
 										<div class="index-block-slaider__text">
@@ -101,23 +106,7 @@
 								</div>
 								<div class="index-block-slaider__slide swiper-slide">
 									<div class="index-block-slaider__content">
-										<div class="index-block-slaider__title">
-											Разработка сайтов любой сложности
-										</div>
-										<div class="index-block-slaider__text">
-											Мы разрабатываем сайты любого типа. От лендинга до мультифункциональных информационных порталов
-										</div>
-										<a href="" class="index-block-slaider__button button-orange">
-											Подробнее
-										</a>
-									</div>
-									<div class="index-block-slaider__img">
-										<img src="img/index-block/1.svg" alt="">
-									</div>
-								</div>
-								<div class="index-block-slaider__slide swiper-slide">
-									<div class="index-block-slaider__content">
-										<div class="index-block-slaider__title">
+										<div class="index-block-slaider__title title title_while">
 											Разработка сайтов любой сложности
 										</div>
 										<div class="index-block-slaider__text">
@@ -454,6 +443,37 @@
 					</div>
 				</div>
 			</footer>
+			<div class="popup" id="popup">
+				<div class="popup__body">
+					<div class="popup__content">
+						<a href="#" class="popup__close">
+							<span class="popup__close-img ibg close-popup">
+								<img src="img/cross.svg" alt="">
+							</span>
+						</a>
+						<div class="popup__title">
+							Оставить заявку
+						</div>
+						<div class="popup__text">
+							Напишите мне и я свяжусь с вами в течении 30 минут
+						</div>
+						<div class="popup-form">
+							<div class="popup-form__input">
+								<input type="" name="">
+							</div>
+							<div class="popup-form__textarea">
+								<textarea></textarea>
+							</div>
+							<button class="popup-form__button button-orange">
+								Отправить
+							</button>
+						</div>
+						<p class="popup__footer">
+							Нажимая на кнопку вы принимаетеусловия передачи данных и соглашаетесьс политикой конфиденциальности
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<script src="js/custom.js"></script>
 	</body>
