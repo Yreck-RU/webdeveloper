@@ -591,11 +591,13 @@ body {
     top: 0%;
     display: block;
     z-index: 0;
-    -webkit-backdrop-filter: blur(9px);
-    backdrop-filter: blur(9px);
     -webkit-box-shadow: -4px -4px 15px 0px rgba(255, 255, 255, 0.25) inset;
     box-shadow: -4px -4px 15px 0px rgba(255, 255, 255, 0.25) inset;
     pointer-events: none; }
+    @media (min-width: 1064px) {
+      .background-blur:after {
+        -webkit-backdrop-filter: blur(9px);
+        backdrop-filter: blur(9px); } }
   .background-blur > * {
     position: relative;
     z-index: 2; }
