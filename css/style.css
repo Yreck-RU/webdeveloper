@@ -857,7 +857,10 @@ body {
   background: #0E0E11;
   padding-bottom: 35px;
   overflow: hidden; }
-  .index-block._active .index-block__wrapper {
+  @media (max-width: 767px) {
+    .index-block {
+      min-height: 224.56vw; } }
+  .index-block._active {
     min-height: auto !important; }
 
 .eleps {
@@ -912,9 +915,6 @@ body {
   position: relative; }
   .index-block__wrapper > .container {
     position: relative; }
-  @media (max-width: 767px) {
-    .index-block__wrapper {
-      min-height: 113.55vw; } }
 
 .index-block-slaider__slide {
   font-size: 0;
