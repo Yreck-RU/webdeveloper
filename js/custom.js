@@ -356,3 +356,10 @@ if (FormValidationWrappers) {
 
 
 //=========================================================================================================
+
+window.onload = function() { // можно также использовать window.addEventListener('load', (event) => {
+	let slaiderIndexActive = document.querySelector("._index-block-active");
+	if (slaiderIndexActive) {
+		slaiderIndexActive.classList.add('_active');
+	}
+};
