@@ -1145,12 +1145,14 @@ body {
 .text-block__img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 47%;
-  flex: 0 0 47%; }
+  flex: 0 0 47%;
+  min-height: 415px; }
   .text-block__img img {
     width: 100%; }
   @media (max-width: 767px) {
     .text-block__img {
-      margin-bottom: 37px; } }
+      margin-bottom: 37px;
+      min-height: 54.5vw; } }
 
 .text-block__content {
   -webkit-box-flex: 1;
