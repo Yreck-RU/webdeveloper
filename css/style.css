@@ -1404,7 +1404,10 @@ body {
         padding-bottom: calc(30px + 30 * ((100vw - 320px) / 1000)); } }
   @media (max-width: 767px) {
     .premium-block {
-      min-height: 115vw; } }
+      min-height: 776px; } }
+  @media (max-width: 767px) and (max-width: 1320px) {
+    .premium-block {
+      min-height: calc(791px + -15 * ((100vw - 320px) / 1000)); } }
 
 .premium-block__title {
   margin-bottom: 17px; }
