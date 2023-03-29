@@ -1592,6 +1592,14 @@ body {
   @media (max-width: 1320px) {
     .portfolio {
       padding-bottom: calc(15px + 15 * ((100vw - 320px) / 1000)); } }
+  @media (max-width: 767px) {
+    .portfolio.portfolio_certificat .portfolio-block {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%; } }
+  @media (max-width: 767px) {
+    .portfolio.portfolio_certificat .portfolio-block__img {
+      min-height: 65vw; } }
 
 .portfolio__title {
   margin-bottom: 14px; }
