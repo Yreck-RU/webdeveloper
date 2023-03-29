@@ -1402,6 +1402,9 @@ body {
     @media (max-width: 1320px) {
       .premium-block.premium-block_pading-two {
         padding-bottom: calc(30px + 30 * ((100vw - 320px) / 1000)); } }
+  @media (max-width: 767px) {
+    .premium-block {
+      min-height: 204vw; } }
 
 .premium-block__title {
   margin-bottom: 17px; }
