@@ -856,7 +856,10 @@ body {
   overflow: hidden; }
   @media (max-width: 767px) {
     .index-block {
-      min-height: 141.5vw; } }
+      min-height: 914px; } }
+  @media (max-width: 767px) and (max-width: 1320px) {
+    .index-block {
+      min-height: calc(790px + 124 * ((100vw - 320px) / 1000)); } }
   .index-block._active {
     min-height: auto !important; }
 
